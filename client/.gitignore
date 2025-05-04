@@ -1,0 +1,12 @@
+# Ignore node_modules specific to client (although this is covered by the root .gitignore)
+node_modules/
+
+# Build output from React (can be generated during deployment)
+build/
+
+# Yarn workspace files specific to client
+.yarn/
+.yarn-cache/
+
+# React specific cache
+*.cache
